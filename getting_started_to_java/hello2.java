@@ -110,8 +110,8 @@ class bytes {
          *  <<  => 1 byte left
          */
         example = example << 1;
-        Sysem.out.println(example);
+        System.out.println(example);
         example = ~example;
-        Sysem.out.println(example);
+        System.out.println(example);
     }
 }
